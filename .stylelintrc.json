@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-less",
+    "stylelint-config-recommended-vue",
+    "stylelint-prettier/recommended"
+  ],
+  "plugins": ["stylelint-less"]
+}
