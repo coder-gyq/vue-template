@@ -5,6 +5,7 @@ import App from "./App.vue";
 import i18n from "./locale";
 import router from "./router";
 import { createPinia } from "pinia";
+import "./main.css";
 
 const app = createApp(App);
 

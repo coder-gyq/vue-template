@@ -3,7 +3,22 @@
     "stylelint-config-standard",
     "stylelint-config-standard-less",
     "stylelint-config-recommended-vue",
-    "stylelint-prettier/recommended"
+    "stylelint-prettier/recommended",
+    "stylelint-config-tailwindcss"
   ],
-  "plugins": ["stylelint-less"]
+  "plugins": ["stylelint-less"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "variants",
+          "responsive",
+          "screen"
+        ]
+      }
+    ]
+  }
 }
