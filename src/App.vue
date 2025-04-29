@@ -23,6 +23,12 @@
       <div>{{ $t("message.hello") }}</div>
     </div>
 
+    <div class="flex flex-row">
+      <div class="basis-1/2">012</div>
+      <div class="basis-1/2">02</div>
+      <div class="basis-1/2">03</div>
+    </div>
+
     <RouterView />
   </div>
 </template>
